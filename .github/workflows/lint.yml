@@ -17,6 +17,7 @@ jobs:
         name: Install pnpm
         with:
           version: 8
+          run-install: true
 
       - name: Lint
         run: pnpm eslint .
